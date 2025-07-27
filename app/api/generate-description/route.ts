@@ -1,5 +1,5 @@
 import { generateText } from "ai"
-import { openai } from "@ai-sdk/openai"
+import { groq } from "@ai-sdk/groq" // Import groq instead of openai
 import { type NextRequest, NextResponse } from "next/server"
 
 export async function POST(req: NextRequest) {
@@ -10,19 +10,19 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Product name is required." }, { status: 400 })
     }
 
-    // Check if the OpenAI API key is set
-    if (!process.env.OPENAI_API_KEY) {
+    // Check if the Groq API key is set
+    if (!process.env.GROQ_API_KEY) {
       return NextResponse.json(
         {
           error:
-            "OpenAI API key is missing. Please set the OPENAI_API_KEY environment variable in your Vercel project settings.",
+            "Groq API key is missing. Please set the GROQ_API_KEY environment variable in your Vercel project settings.",
         },
         { status: 500 },
       )
     }
 
     const { text } = await generateText({
-      model: openai("gpt-4o"), // Placeholder model
+      model: groq("llama-3.1-8b-instant"), // Use a Llama model from Groq
       prompt: `Generate a catchy product description and relevant SEO tags for a product named '${productName}'.
     The description should be engaging and highlight key benefits.
     The SEO tags should be comma-separated keywords.
@@ -40,7 +40,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json(
         {
           error:
-            "OpenAI API key is missing. Please set the OPENAI_API_KEY environment variable in your Vercel project settings.",
+            "Groq API key is missing. Please set the GROQ_API_KEY environment variable in your Vercel project settings.",
         },
         { status: 500 },
       )
