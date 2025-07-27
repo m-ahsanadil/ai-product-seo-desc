@@ -95,20 +95,3 @@ Remember to set your `GROQ_API_KEY` environment variable in your Vercel project 
 ## Contributing
 
 Feel free to fork this repository, make improvements, and submit pull requests.
-
-## Continue Building with v0
-
-You can continue to build and iterate on this project using the v0.dev platform:
-
-**[https://v0.dev/chat/projects/v1qGySnlWo9](https://v0.dev/chat/projects/v1qGySnlWo9)**
-```
-
-**How to use this `README.md`:**
-
-1.  **Copy the entire content** of the Markdown block above.
-2.  **Create a new file** named `README.md` in the root of your GitHub repository.
-3.  **Paste the copied content** into the `README.md` file.
-4.  **Commit and push** the `README.md` file to your GitHub repository.
-
-This will make your project's description visible on your GitHub repository's main page.
-
