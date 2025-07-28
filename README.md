@@ -57,7 +57,7 @@ pnpm install
 
 ### 3. Configure Environment Variables
 
-This project uses the Groq API for AI model inference. You need to obtain a `GROQ_API_KEY` from the [Groq website](https://console.groq.com/keys) and set it as an environment variable.
+This project uses the Groq API for AI model inference.
 
 Create a `.env.local` file in the root of your project and add your API key:
 
