@@ -81,7 +81,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the a
 
 ## Deployment
 
-Your project is live at:
+ Project is live at:
 
 **[https://descgen.ahsanadil.com/](https://descgen.ahsanadil.com/)**
 
