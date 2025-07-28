@@ -1,8 +1,5 @@
 # AI Product Description Generator
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/ahsanadil9s-projects/v0-ai-product-generator)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/v1qGySnlWo9)
-
 ## Overview
 
 This project is a simple, AI-powered web application that generates catchy product descriptions and relevant SEO tags based on a product name provided by the user. It's designed to be a quick and efficient tool for freelancers and small e-commerce businesses looking to streamline their content creation process.
