@@ -41,8 +41,8 @@ Make sure you have the following installed:
 First, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/ahsanadil9s/product-seo-descriptions.git
-cd product-seo-descriptions
+git clone https://github.com/ahsanadil9s/ai-product-seo-desc.git
+cd ai-product-seo-desc
 ```
 
 ### 2. Install Dependencies
