@@ -81,11 +81,9 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the a
 
 ## Deployment
 
-This project is configured for easy deployment to Vercel. If you've synced this repository with v0.dev, it will automatically deploy changes to Vercel.
-
 Your project is live at:
 
-**[https://vercel.com/ahsanadil9s-projects/v0-ai-product-generator](https://vercel.com/ahsanadil9s-projects/v0-ai-product-generator)**
+**[https://descgen.ahsanadil.com/](https://descgen.ahsanadil.com/)**
 
 Remember to set your `GROQ_API_KEY` environment variable in your Vercel project settings for the deployed version to work correctly.
 
